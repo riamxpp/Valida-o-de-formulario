@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: .9rem;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 440px 1fr;
+  grid-template-rows: 1fr 500px 1fr;
+  background-color: #e4dadc;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  display: block;
+}
+
+input {
+  border: 1.9px solid #8131cc;
+  border-radius: 2px;
+  height: 20px;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid blueviolet;
+}
+
+.formulario {
+  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  border-top:  10px solid blueviolet;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.nome, .sobrenome, .cidade, .cep, .cpf, .cnpj, .telefone {
+  width: 180px;
+  margin-top: 10px;
+}
+
+.nomeSobrenome, .cepCidade, .cpfCpjs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.justTelefone, .justEnviar {
+  margin-left: 13px;
+}
+
+#botaoEnviar {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 30px;
+  width: 70px;
+  border: 1.9px solid #8131cc;
+  background: #8131cc;
+  color: white;
+  border-radius: 4px;
+}
+
+#botaoEnviar:hover {
+  background: #9d44f0;
+}
+
+input.erro {
+  border: 2px solid red;
+}

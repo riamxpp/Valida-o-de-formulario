@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form class="formulario"> 
+    <div class="nomeSobrenome">
+      <div class="nome"> 
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+      </div>
+      <div class="sobrenome">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+      </div>
+    </div>
+    <div class="cepCidade">
+      <div class="cep">
+        <label for="cep">Cep</label>
+        <input type="text" id="cep" name="cep" placeholder="00000-000">
+      </div>
+      <div class="cidade">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade">
+      </div>
+    </div>
+   <div class="cpfCpjs">
+    <div class="cpf">
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+    </div>
+    <div class="cnpj">
+      <label for="cnpj">CNPJ</label>
+      <input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/0000-00"></input>
+    </div>
+   </div>
+   <div class="justTelefone">
+     <div class="telefone">
+       <label for="telefone">N° Celular</label>
+       <input type="text" name="telefone" id="telefone" placeholder="(00) 00000-0000">
+     </div>
+   </div>
+  
+   <div class="justEnviar">
+     <div>
+       <button type="submit" id="botaoEnviar">Enviar</button>
+     </div>
+   </div>
+  </form>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
